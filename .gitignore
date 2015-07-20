@@ -1,6 +1,4 @@
 #ignorar archivos que acaban en .a y .o
 *.a
 *.o
-#ignorar imagenes
-*.jpg
-*.png
+#ignorar imagenes, al final si las subor porque pesan poquito
