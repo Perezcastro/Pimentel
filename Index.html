@@ -7,6 +7,10 @@
 	no usar metas : tag, keywords, -->
 	<meta name="descriptcion" content="Home de la empresa de limpieza Pimentel' servicios de limpieza."/>
 	<meta name="autor" content"Antonio Pérez Castro"/>
+<!-- 	fuentes de Google
+ -->
+ 	<link href='http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" type="text/css" href="normalize.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Pimentel's Servicio de limpieza</title>
@@ -22,7 +26,7 @@
 	</header>
 	<nav>
 		<ul>
-			<li><a href="#">Home</a></li>
+			<li ><a href="#" class="icon-home3"></a></li>
 			<li><a href="#">Empresa</a></li>
 			<li><a href="#">Servicios</a></li>
 			<li><a href="#">Casos de exito</a></li>
@@ -33,54 +37,53 @@
 	
 	<div class="social">
 		<aside>
-			<a href="#">Facebook</a>
+			<a href="#" class="icon-facebook2"></a>
 		</aside>
 		<aside>
-			<a href="#">Google +</a>
+			<a href="#" class="icon-google-plus"></a>
 		</aside>
 		<aside>
-			<a href="#">Twitter</a>
+			<a href="#" class="icon-twitter"></a>
 		</aside>
 	</div>
 	<section id="contenido">
 		<article class="item">
-			<figure class="imagen_item">
-				<img src="horario.jpg"/>
+			<figure class="item__imagen">
+				<img src="images/horario.jpg"/>
 			</figure>
-			<h2 class="titulo_item">
+			<h2 class="titulo__item">
 				<strong>  Horario de oficina</strong>
 			 </h2>
-			 <p class="datos_item">
+			 <p class="item__datos">
 			 	<span class="item__verano">Lunes a viernes</span> , de 9:00 a 14.
 			 </p>
-			 <p class="datos_item">
-			 	<span class="item__invierno">Lunes a viernes</span> , de 9:00 a 14  y de 17:00 a 20:00.
-			 </p>
+
 		</article>
 
 		<article class="item">
-			<figure class="imagen_item">
-				<img src="mapa.jpg"/>
-			</figure>
-			<h2 class="titulo_item">
-				<a href="#"> <strong>  Donde estamos!</strong> </a>
+
+			<h2 class="titulo__item">
+				<strong class="icon-location2">Donde estamos</strong> 
+
 			 </h2>
-			 <p class="datos_item">
-<!-- 			 	ENLACE A google maps
- -->			 </p>
+			 <p class="item__datos" id="mapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6336.015038704968!2d-4.197470074443502!3d37.43692713390262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCalle+Antonio+de+la+Barrera%2C+7%2C+Priego+de+C%C3%B3rdoba!5e0!3m2!1ses!2ses!4v1437502490709" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>		 </p>
 		</article>
 
 		<article class="item">
-			<figure class="imagen_item">
-				<img src="llamada.jpg"/>
-			</figure>
-			<h2 class="titulo_item">
-				<strong>  contacto</strong>
+			<!-- <figure class="item__imagen">
+				<img src="images/tlf.png"/>
+			</figure> -->
+			<h2 class="titulo__item">
+				<strong class="icon-phone">  contacto</strong>
 			 </h2>
-			 <p class="datos_item">
-			 	<span class="item__telefono">957701820</span>
-			 	<span class="item__telefono">607882904</span>
-			 	<span class="item__email">limpiezapimentel@gmail.com</span>
+			 <p class="item__datos">
+			 	<ul > 
+			 		<li>957-701820</li>
+			 		<li>607-882904</li>
+			 		<li>617-758217</li>
+			 	</ul >
+			 	<span class="icon-envelop">limpiezapimentel@gmail.com</span>
 			 </p>
 		</article>
 

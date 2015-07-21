@@ -1,9 +1,62 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot?n7yoka');
+    src:url('fonts/icomoon.eot?#iefixn7yoka') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?n7yoka') format('truetype'),
+        url('fonts/icomoon.woff?n7yoka') format('woff'),
+        url('fonts/icomoon.svg?n7yoka#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home3:before {
+    content: "\e600";
+}
+.icon-phone:before {
+    content: "\e601";
+}
+.icon-envelop:before {
+    content: "\e602";
+}
+.icon-location2:before {
+    content: "\e603";
+}
+.icon-calendar:before {
+    content: "\e604";
+}
+.icon-google-plus:before {
+    content: "\e605";
+}
+.icon-facebook2:before {
+    content: "\e606";
+}
+.icon-twitter:before {
+    content: "\e607";
+}
+
+
+
+/* para arriba style de icomoon.io*/
 
 /*http://www.colourlovers.com/palette/3827842/Clownfish*/
 
 body {
     background: #E0FAFB;
-    font-family: Arial;
+    font-family: 'Alegreya', serif,Arial;
     font-size: 18px;
 }
 
@@ -29,7 +82,6 @@ header h1
 header h2{
     font-size: 1.2em;
     font-weight: normal;
-    border: 3px black solid;
 }
 header figure{
     float: left;
@@ -37,13 +89,14 @@ header figure{
     margin-top: 0.3em;
 }
 header #logo img{
-    width: 128px;
-    height: 64px;
+    width: 240px;
+    height: 120px;
     border-radius: 30%;
     display: inline-block;
 }
 
 nav{
+    box-shadow: rgba(0,0,0,0.5) 0px 5px 10px;
     background: #F4A522;
     margin: 0;
 }
@@ -68,10 +121,13 @@ footer{
 }
 
 footer p{
+    color: rgba(255,255,255,0,7);
     font-size: 0.8em;
     font-family: tahoma;
     display: inline-block;
     border-right: 1px white solid;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 footer p:first-child{
     display: block;
@@ -85,4 +141,42 @@ footer p:last-child:after{
 }
 footer p:last-child:before{
     content: "- ";
+}
+
+.social aside{
+    display: inline-block;
+    font-size: 1.5em;
+    color: #E0FAFB;
+
+}
+
+#contenido
+{
+    margin: 1em;
+    background: #E0FAFB;
+}
+
+#contenido .item{
+    display: inline-block;
+    border-right: 3px solid #F4A522;
+    border-left: 3px solid #F4A522;
+    overflow: hidden;
+    min-height: 250px;
+
+}
+
+#contenido .item .item__datos iframe{
+    width: 250px;
+    height: 250px;
+}
+#contenido .item .item__imagen{
+    float: left;
+}
+#contenido .item .item__titulo{
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+#contenido .item .item__imagen img{
+    width: 80px;
 }
