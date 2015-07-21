@@ -3,18 +3,22 @@
 <!-- es importante dividir los idimoas por dominios -->
 <head>
 	<meta charset="utf-8"/>
+	<!-- los metas importantes son : meta(160 caracteres)
+	no usar metas : tag, keywords, -->
 	<meta name="descriptcion" content="Home de la empresa de limpieza Pimentel' servicios de limpieza."/>
 	<meta name="autor" content"Antonio Pérez Castro"/>
+	<link rel="stylesheet" type="text/css" href="normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Pimentel's Servicio de limpieza</title>
 </head>
 <body>
 	<header>
 		<figure id="logo">
-			<img src="images/logo02.jpg" width=240 height=180/>
+			<img src="images/logo01.png" />
 <!-- 			la imagen pesa 365kb, la subo a github
  -->	</figure>
-		<h1>Servicio de limpieza</h1>
-		<h2>La empresa de limpieza lider en Priego de Córdoba.</h2>
+		<h2>Servicio de limpieza</h2>
+		<h>La empresa de limpieza lider en Priego de Córdoba.</h1>
 	</header>
 	<nav>
 		<ul>
@@ -25,20 +29,62 @@
 			<li><a href="#">Presupuesto</a></li>
 			<li><a href="#">Bolsa de trabajo</a></li>
 		</ul>
-
 	</nav>
+	
+	<div class="social">
+		<aside>
+			<a href="#">Facebook</a>
+		</aside>
+		<aside>
+			<a href="#">Google +</a>
+		</aside>
+		<aside>
+			<a href="#">Twitter</a>
+		</aside>
+	</div>
 	<section id="contenido">
 		<article class="item">
 			<figure class="imagen_item">
-				<img src="imagen1.jpg"/>
+				<img src="horario.jpg"/>
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#"> <strong>  horario</strong> </a>
+				<strong>  Horario de oficina</strong>
 			 </h2>
 			 <p class="datos_item">
-			 	<span>EStamos abiertos de Lunes a viernes</span>
+			 	<span class="item__verano">Lunes a viernes</span> , de 9:00 a 14.
+			 </p>
+			 <p class="datos_item">
+			 	<span class="item__invierno">Lunes a viernes</span> , de 9:00 a 14  y de 17:00 a 20:00.
 			 </p>
 		</article>
+
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="mapa.jpg"/>
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#"> <strong>  Donde estamos!</strong> </a>
+			 </h2>
+			 <p class="datos_item">
+<!-- 			 	ENLACE A google maps
+ -->			 </p>
+		</article>
+
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="llamada.jpg"/>
+			</figure>
+			<h2 class="titulo_item">
+				<strong>  contacto</strong>
+			 </h2>
+			 <p class="datos_item">
+			 	<span class="item__telefono">957701820</span>
+			 	<span class="item__telefono">607882904</span>
+			 	<span class="item__email">limpiezapimentel@gmail.com</span>
+			 </p>
+		</article>
+
+
 	</section>
 	<footer>
 		<p>

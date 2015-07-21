@@ -1,8 +1,88 @@
-/*
-comentario en css
-*/
 
-h1{
-	font-family: Arial,Helvetica;
-	color: orange;
+/*http://www.colourlovers.com/palette/3827842/Clownfish*/
+
+body {
+    background: #E0FAFB;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+a {
+    color: #5A5B56;
+    text-decoration: none;
+}
+
+header
+{
+    background: #E56A03;
+    color: #E0FAFB;
+    padding: 0.5em;
+
+}
+header h1
+{    
+
+    font-size: 1.2em;
+    font-weight: normal;
+    display: inline-block;
+}
+header h2{
+    font-size: 1.2em;
+    font-weight: normal;
+    border: 3px black solid;
+}
+header figure{
+    float: left;
+    margin-left: 0.3em;
+    margin-top: 0.3em;
+}
+header #logo img{
+    width: 128px;
+    height: 64px;
+    border-radius: 30%;
+    display: inline-block;
+}
+
+nav{
+    background: #F4A522;
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 0.5em 0 0;
+    padding: 0.5em 0;
+    font-style: italic;
+}
+
+footer{
+    color: #F4A522;
+    text-align: center;
+    background: #5A5B56;
+}
+
+footer p{
+    font-size: 0.8em;
+    font-family: tahoma;
+    display: inline-block;
+    border-right: 1px white solid;
+}
+footer p:first-child{
+    display: block;
+}
+
+footer p:last-child{
+    display: block;
+}
+footer p:last-child:after{
+    content: " -";
+}
+footer p:last-child:before{
+    content: "- ";
 }
